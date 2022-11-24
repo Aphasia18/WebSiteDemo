@@ -1,0 +1,26 @@
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    
+}
+
+.card {
+    background-color: black;
+    border: 2px solid grey;
+    margin: 1rem;
+    max-width: 405px;
+    
+}
+
+.card > * {
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+@media (min-width: 39em) {
+    .section2 {
+        height: 100vh;
+    }
+}

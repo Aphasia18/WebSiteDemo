@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 1</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="background spacer">
+    
+        <header>
+
+            <div>
+                <img src="Images/Primogem.png" alt="" class="logo">
+            </div>
+
+            <button class="navigation-mobile-toggle" expanded = "false"></button>
+
+            <nav>
+
+                <ul id="navigation" class="navigation"  visible="false">
+                    <li>
+                        <a href="#section1">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section2">
+                            Education
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section3">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact-section">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+    
+
+
+    <div class="section1" id="section1">
+        <div class="info-card-container">
+            <div class="info-card">
+                <h2>About Me</h2>
+                <p>23 year old student on his journey to become Front End Developer</p>
+                <a href="https://github.com/Aphasia18" target="_blank" class="fa fa-github fa-2x"></a>
+                <a href="https://www.linkedin.com/in/guga-kakashvili-b3a222251/" target="_blank" class="fa fa-linkedin fa-2x"></a>
+            </div>
+    
+            <div class="info-card">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+    
+            <div class="info-card">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Russian</li>
+                    <li>Georgian</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+   
+    <div class="section2" id="section2">
+
+        <div class="card">
+            <h2>Education</h2>
+            <h3>Georgian Technical University</h3>
+            <h4>Informatics and control systems faculty</h4>
+            <p>2019-Present, OOP fundamentals, algorithms, HTML, CSS, JS, Pyhton </p>
+        </div>
+        <div class="card">
+            <h2>Experience</h2>
+            <p>At present moment, I have no relevant working experience in IT industry. Doing my best to land an entry level position !!! Currently working at:</p>
+            <h3>LLC MARS</h3>
+            <p>Game Control Specialist</p>
+        </div>
+
+    </div>
+
+
+
+    <div class="section3" id="section3">
+        
+        <p class="projects-header">Projects</p>
+        
+        <div class="projects">
+            <div>
+                <div class="project-pic">
+                    <img class="img" src="Images/Screenshot 2022-11-15 152151.png" alt="">
+                </div>
+                <h3>Mini solar system</h3>
+                <a href="https://aphasia18.github.io/Solar/" target="_blank"><button>View</button></a>
+                <a href="https://github.com/Aphasia18/Solar" target="_blank"><button>View Code</button></a>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div class="contact-section" id="contact-section">
+        <div class="outro">
+            <div class="form-container">
+                <form  action="https://formsubmit.co/524fdd9453169df4317a767aa58f7560" method="POST">
+                    <h3>Contact Me</h3>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                    <input type="hidden" name="_subject" value="Possible job">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="name" id="name" placeholder="Identify yourself" required>
+                    <input type="email" name="email" id="email" placeholder="Mail" required>
+                    <textarea type="text" name="message" id="message"  rows="4" placeholder="Say something"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
