@@ -62,7 +62,6 @@ button {
     height: 60px;
     width: 60px;
     margin: 1rem;
-    
 }
 
 .heading {
@@ -158,9 +157,7 @@ body::-webkit-scrollbar {
         transition: transform 350ms ease-out;
     }
 
-    
-
-    .navigation[visible = "true"] {
+    .active.navigation {
         transform: translateX(0%);
     }
 
@@ -177,7 +174,7 @@ body::-webkit-scrollbar {
         width: 2rem;
         aspect-ratio: 1;
     }
-    .navigation-mobile-toggle[expanded = "true"] {
+    .active.navigation-mobile-toggle {
         background-image: url(Images/Exit.png);
         display: block;
         
