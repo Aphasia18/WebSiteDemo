@@ -44,9 +44,10 @@ button {
     list-style: none;
     margin: 0;
     padding: 2rem;
-    background: rgba(224, 224, 224, 0.1);
+    background: rgba(190, 190, 190, 0.1);
     backdrop-filter: blur(1rem);
     gap: 10vw;
+    -khtml-opacity: 0.5;
 }
 
 .contact-section {

@@ -10,7 +10,7 @@
     border: 2px solid grey;
     margin: 1rem;
     max-width: 405px;
-    
+    border-radius: 10px;
 }
 
 .card > * {
