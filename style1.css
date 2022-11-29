@@ -47,7 +47,6 @@ button {
     background: rgba(190, 190, 190, 0.1);
     backdrop-filter: blur(1rem);
     gap: 10vw;
-    -khtml-opacity: 0.5;
 }
 
 .contact-section {
@@ -156,6 +155,8 @@ body::-webkit-scrollbar {
 
         transform: translateX(100%);
         transition: transform 350ms ease-out;
+
+        background: rgb(68, 68, 68);
     }
 
     .active.navigation {
